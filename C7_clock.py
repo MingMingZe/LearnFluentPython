@@ -27,15 +27,15 @@ if __name__ == '__main__':
 
 
 ############result######################
-[0.00000000s]fibonacci(0) -> 0
-[0.00000000s]fibonacci(1) -> 1
-[0.00000000s]fibonacci(2) -> 1
-[0.00000000s]fibonacci(3) -> 2
-[0.00000000s]fibonacci(4) -> 3
-[0.00000000s]fibonacci(5) -> 5
-[0.00000000s]fibonacci(6) -> 8
-[0.00000000s]fibonacci(7) -> 13
-[0.00000000s]fibonacci(8) -> 21
-[0.00000000s]fibonacci(9) -> 34
-[0.00000000s]fibonacci(10) -> 55
-55
+#[0.00000000s]fibonacci(0) -> 0
+#[0.00000000s]fibonacci(1) -> 1
+#[0.00000000s]fibonacci(2) -> 1
+#[0.00000000s]fibonacci(3) -> 2
+#[0.00000000s]fibonacci(4) -> 3
+#[0.00000000s]fibonacci(5) -> 5
+#[0.00000000s]fibonacci(6) -> 8
+# [0.00000000s]fibonacci(7) -> 13
+# [0.00000000s]fibonacci(8) -> 21
+# [0.00000000s]fibonacci(9) -> 34
+# [0.00000000s]fibonacci(10) -> 55
+# 55
