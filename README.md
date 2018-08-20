@@ -1,1 +1,2 @@
-# homework1
+# LearnFluentPython
+Practice the code on the book
