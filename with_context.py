@@ -49,4 +49,22 @@ enter
 (13, 16)
 exit
 """
+print("///////////")
 
+# 利用装饰器contextmanager
+from contextlib import contextmanager
+
+
+@contextmanager
+def dealfile():
+    """
+    yield前面放__enter__的内容不用return，yield后面放__exit__的内容
+    :return:
+    """
+    print("hello")
+    yield {}
+    print("bye")
+
+
+with dealfile():
+    print("have a good time")
