@@ -68,3 +68,10 @@ def dealfile():
 
 with dealfile():
     print("have a good time")
+
+"""
+打印结果：
+hello
+have a good time
+bye
+"""
