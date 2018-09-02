@@ -12,3 +12,4 @@ MingMing.name = 'Girl'
 ming.name = 'Boy'
 print("class.name:", MingMing.name)
 print("instance.name:", ming.name)
+
