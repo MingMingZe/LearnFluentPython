@@ -2,7 +2,6 @@ import functools
 import itertools
 import numbers
 import operator
-import random
 import reprlib
 from array import array
 import math
@@ -130,11 +129,11 @@ class Vector:
 
 
 if __name__ == '__main__':
-    # v1 = Vector([i for i in range(1, 4)])
-    # print(14 * v1)
-    # print(True * v1)
-    # from fractions import Fraction
-    # print(v1 * Fraction(1, 3))
+    v1 = Vector([i for i in range(1, 4)])
+    print(14 * v1)
+    print(True * v1)
+    from fractions import Fraction
+    print(v1 * Fraction(1, 3))
 
     va = Vector([1, 2, 3])
     vb = Vector([5, 6, 7])
