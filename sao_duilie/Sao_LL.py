@@ -34,9 +34,9 @@ class Linklist:
     def iter_node(self):
         currnode = self.root.next
         while currnode is not self.tail:
-            yield currnode
+            yield currnode.value
             currnode = currnode.next
-        yield currnode
+        yield currnode.value
 
     def __iter__(self):
         for i in self.iter_node():
