@@ -67,18 +67,31 @@ class Sao_DLL:
             self.length -= 1
             return value
 
-
     def iter_node(self):
+        curr_node = self.root.next
+        while curr_node is not self.root.pre:
+            yield curr_node
+            curr_node = curr_node.next
+        yield curr_node
+
+    def iter_value(self):
         curr_node = self.root.next
         while curr_node is not self.root.pre:
             yield curr_node.value
             curr_node = curr_node.next
+        yield curr_node.value
 
     def __iter__(self):
         for i in self.iter_node():
             yield i
 
     def iter_reverse(self):
+        curr_node = self.root
+        while curr_node is not self.root:
+            yield curr_node
+            curr_node = curr_node.pre
+
+    def iter_reverse_value(self):
         curr_node = self.root.pre
         while curr_node is not self.root:
             yield curr_node.value
