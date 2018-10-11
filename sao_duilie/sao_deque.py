@@ -32,3 +32,10 @@ class Sao_deque(Sao_DLL):
         self.root.next = head.next
         head.pre = self.root
         return head.value
+
+    def new_pop(self):
+        if self.len() <= 0:
+            raise Empty("The sao_deque is empty")
+        value = self.root.pre.value
+        self.remove(value)
+        return value
