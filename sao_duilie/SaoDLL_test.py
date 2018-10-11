@@ -30,4 +30,4 @@ class Test_SaoDLL(TestCase):
         dll = Sao_DLL(maxsize=3)
         for i in range(3):
             dll.append(i)
-        self.assertEqual([2, 1, 0], [j for j in dll.iter_reverse()])
+        self.assertEqual([2, 1, 0], [j for j in dll.iter_reverse_value()])
